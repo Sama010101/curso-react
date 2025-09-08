@@ -10,4 +10,4 @@ function Pessoa({nome, idade, profissão, foto}) {
     )   
 }
 
-export default Pessoa
+export default Pessoa;

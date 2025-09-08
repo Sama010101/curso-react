@@ -1,23 +1,13 @@
 import './App.css';
-import SayMyName from './components/SayMyName'; 
-import Pessoa from './components/Pessoa'; 
-
+import Evento from './components/Evento';
+import Form from './components/Form';
 function App() {
 
-  var nomes= ["Samuel", "Maria", "João"];
   return (
     <div className="App">
-
-      <SayMyName name={nomes[0]} />
-      <SayMyName name={nomes[1]} />
-      <SayMyName name={nomes[2]} />
-      <Pessoa 
-      nome="Samuel" 
-      idade="21" 
-      profissão="Programador" 
-      foto="https://via.placeholder.com/150"
-      />
-
+      <h1>Avançando em React</h1>
+      <Evento numero="1" />
+      <Form />
     </div>
      
   );
